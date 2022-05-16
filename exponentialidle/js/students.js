@@ -20,7 +20,7 @@ function optimize() {
         var log10dpsi = Math.log10(dpsi+10)
     } else{
         //Less accurate but works for higher ft
-        var log10db = (ft * 0.8) - Math.log10(4e6)
+        var log10db = (ft * 20) - Math.log10(4e6)
         var log10dpsi = (ft / 25.0 - 1) * Math.log10(2)
     }  
 
@@ -29,7 +29,7 @@ function optimize() {
     var dtLevels = ft / Math.log10(4)
     var dt = Math.max(1, dtSpeed * dtLevels);
 
-    if (adBonus) { dt *= 1.5 }
+    if (adBonus) { dt *= 999 }
     if (acceleration) { dt *= accelerationBonus }
 
     function getCost(num) {
