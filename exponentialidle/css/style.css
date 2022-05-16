@@ -5,7 +5,7 @@ html, body {height: 100%}
 .text-color-light {color: #999;}
 .text-color-medium {color: #888;}
 .text-bold {font-weight: bolder;}
-.color-dark {background-color:#222; color: #ccc;}
+.color-dark {background-color:#ff0000; color: #ccc;}
 .color-medium {background-color:#2f2f2f; color: #ccc;}
 .color-light {background-color:#333; color: #ccc;}
 .color-very-light {background-color:#444; color: #ccc;}
