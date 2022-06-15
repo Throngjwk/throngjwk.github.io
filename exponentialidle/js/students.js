@@ -14,7 +14,7 @@ function optimize() {
     var log10dmu = ft
     if (ft < 100) {
         //More accurate calculations
-        var db = Math.pow(Math.pow(10,ft),0.8) / 4000000
+        var db = Math.pow(Math.pow(10,ft),0.8) / 40000
         var log10db = Math.log10(db+10)
         var dpsi = Math.pow(2,(ft/25)-1) - 0.5
         var log10dpsi = Math.log10(dpsi+10)
