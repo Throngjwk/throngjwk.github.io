@@ -7,7 +7,7 @@ document.getElementById("cost1").onclick = () => {
         cost1 = cost1.pow(1.45)
         dollars = dollars.div(cost1)
         dollar_mulit = dollar_mulit.mul(1.9)
-        document.getElementById("cost1").innerHTML = "Cost:" + dollars
+        document.getElementById("cost1").innerHTML = "Cost:" + cost1
     } else {
         alert("Not Enough Money.")
     }
