@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid;
+  }
+
+h2.monospace, .monospace {
+    font-family: monospace;
+    border: inherit;
+}
+
+body {
+    background-color: yellow;
+    content: inherit;
+    font-family: comic sans ms;
+}
