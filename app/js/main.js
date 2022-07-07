@@ -14,6 +14,6 @@ document.getElementById("cost1").onclick = () => {
 }
 
 setInterval(() => {
-    dollars = dollars.mul(1.15)
+    dollars = dollars.mul(dollar_mulit)
     document.getElementById("dollars").innerHTML = "You Have " + dollars + " Dollars."
 }, 100);
